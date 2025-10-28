@@ -1,5 +1,5 @@
 # Static sum  of two numbers
- a =2
-b = 3
+ int a =2
+int b = 3
 sum = a + b
 print (sum)
