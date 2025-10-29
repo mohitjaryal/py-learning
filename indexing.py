@@ -2,4 +2,4 @@
 str = "Mohit Jaryal"
 print(str)
 print("Character :", str[0])
-print("Character :", str[5])
+print("Character :", str[6])
