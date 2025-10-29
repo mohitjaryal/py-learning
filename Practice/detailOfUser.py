@@ -2,4 +2,4 @@
 name = input("Enter your name :")
 age = int(input("Enter your age :"))
 salary = float(input("Enter your salary :"))
-print("Hello I'm",name," \n and my age is",age,\n "My salary is ",salary)
+print("Hello I'm",name," \nand my age is",age,"\nMy salary is ",salary)
