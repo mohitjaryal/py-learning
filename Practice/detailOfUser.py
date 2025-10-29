@@ -1,0 +1,1 @@
+# Simple program to print the user's detail - taking input by user
