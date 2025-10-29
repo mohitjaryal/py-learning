@@ -1,5 +1,5 @@
 # WAP to give Grades to students based on their marks
-marks = input('Enter your total marks :')
+marks = int(input('Enter your total marks :'))
 if(marks>=90):
     print("Grade A") 
 elif(marks>=80 and marks < 90):
