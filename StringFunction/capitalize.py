@@ -1,0 +1,1 @@
+# Program to demonstrate the use of capitalize() 
