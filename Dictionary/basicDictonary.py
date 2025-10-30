@@ -6,3 +6,6 @@ info = {
     "Degree" : "Engineering"
 }
 print(info)
+# Changing the value 
+info["age"] = 21
+print(info)
