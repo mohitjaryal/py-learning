@@ -2,8 +2,10 @@
 students = {
     "name" : "Ram",
     "score" : {
-        "chem" : 100,
+        "chem" : 90,
         "phy" : 100,
-        "math" : 100,
+        "math" : 99,
     }
 }
+
+print(students["score"]["chem"])
