@@ -5,7 +5,10 @@ info = {
     "location" : "Chandigarh",
     "Degree" : "Engineering"
 }
-print(info)
+print("Before changing\n",info)
 # Changing the value 
 info["age"] = 21
-print(info)
+info["name"] = "Sham"
+info["location"] = "Dehli"
+info["Degree"] = "B.com"
+print("After changing\n",info)
