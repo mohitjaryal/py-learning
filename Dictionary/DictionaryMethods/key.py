@@ -1,6 +1,4 @@
 # key() method in py
-
-# Nested dictionary 
 students = {
     # Student 1 - Ram
     "Ram" : {
