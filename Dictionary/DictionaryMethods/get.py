@@ -23,5 +23,7 @@ students = {
 
 }
 
-print('Ram :\n',students['Ram'].get('subjects'))
-print('Roxy :\n',students['Roxy'].get('subjects'))
+print('Ram :\n',students['Ram'].get('subjects')) # accessing key - 'subjects' in key 'Ram'
+print('Ram :\n',students['Ram'].get('age')) # accessing key - 'age' in key 'Ram'
+print('Roxy :\n',students['Roxy'].get('subjects')) # accessing key - 'subjects' in key 'Roxy'
+print('Ram :\n',students['Ram'].get('age')) # accessing key - 'age' in key 'Roxy'
