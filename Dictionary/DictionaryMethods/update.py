@@ -22,7 +22,7 @@ students = {
     }
 
 }
-students['Ram'].update({'city':'Chandigarh'})
-students['Roxy'].update({'city':'Delhi'})
+students['Ram'].update({'city':'Chandigarh'}) # Adding new key - 'city'. and value 'Chandigarh' to Ram key
+students['Roxy'].update({'city':'Delhi'}) # Adding new key - 'city'. and value 'Delhi' to Roxy key
 print('Ram :\n',students['Ram'])
 print('Roxy :\n',students['Roxy'])
