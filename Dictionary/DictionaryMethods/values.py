@@ -2,7 +2,7 @@
 students = {
     # Student 1 - Ram
     "Ram" : {
-        'name' : 'Ram'
+        'name' : 'Ram',
         'age' : 20,
         'subjects' : {
             'phy' : 100,
