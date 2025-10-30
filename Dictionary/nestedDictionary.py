@@ -6,6 +6,7 @@ students = {
         "phy" : 100,
         "math" : 99,
     }
+    
 }
 
 print(students["score"]["chem"])
