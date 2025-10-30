@@ -1,3 +1,4 @@
 # Tuples in py
-tup = (1,2,3,4,5)
+tup = () # Empty tupple
+val = int(input("Let's create a Tuple! \nEnter values:"))
 print("This is Tuple :",tup)
