@@ -1,3 +1,1 @@
-Hello world.
-This is a demo file.
-Just to perfrom write() operations in python
+File changed !
