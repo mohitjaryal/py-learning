@@ -13,4 +13,4 @@ marks.update({'phy':c})
 d = int(input("Enter marks of chem:")) # Updating the marks dictionary 
 marks.update({'phy':d})
 
-print('Detailed marks :',marks)
+print('Detailed marks :',marks) # Displaying the detailed marks
