@@ -6,9 +6,9 @@ line1 = f.readline()
 print(line1)
 
 # Reading and printing line2
-line1 = f.readline()
-print(line1)
+line2 = f.readline()
+print(line2)
 
 # Readinf and printing line3
-line1 = f.readline()
-print(line1)
+line3 = f.readline()
+print(line3)
