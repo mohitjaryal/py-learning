@@ -1,8 +1,11 @@
-# Write a recursive program to find the sum of first n natural numbers
-def fact(n):
-    if(n==0 or n==1): # Base comdition
-        return 1
+# Write a recursive program to find the sum of first n natural numbers using recursion
+
+def sum(n):
+    if(n == 0): # Base case
+        return 0
     else:
-        return fact(n-1) * n
-    
-print(fact(5))
+        return n + sum(n - 1)
+
+n = int(input("Enter the number :"))
+
+print("Sum :",sum(n))
