@@ -1,4 +1,4 @@
-# Basic program to demonstrate the I/O operations in python
+# Basic program to demonstrate the read() operation in python
 f = open("/Users/mohit/Documents/py-learning/I/O_Operations/demo.txt","r")
 
 data = f.read() # Reading the data - entire data
