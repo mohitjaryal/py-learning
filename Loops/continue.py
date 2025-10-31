@@ -2,9 +2,8 @@
 # break statement in oy
 i = 1
 while i <=10:
-    print(i)
     if(i==6):
+        i += 2
         continue # skips 6 print the rest 
+    print(i)
     i += 1
-    
-print("End of loop !")
