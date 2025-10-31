@@ -12,5 +12,3 @@ print(line2)
 # Readinf and printing line3
 line3 = f.readline()
 print(line3)
-
-print('End')
