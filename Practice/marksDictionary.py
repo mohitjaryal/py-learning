@@ -5,12 +5,12 @@ a = int(input("Enter marks of phy:"))
 marks.update({'phy':a}) # Updating the marks dictionary 
 
 b =int(input("Enter marks of math:")) # Updating the marks dictionary 
-marks.update({'phy':b})
+marks.update({'math':b})
 
 c = int(input("Enter marks of psychology:")) # Updating the marks dictionary 
-marks.update({'phy':c})
+marks.update({'psyco':c})
 
 d = int(input("Enter marks of chem:")) # Updating the marks dictionary 
-marks.update({'phy':d})
+marks.update({'chem':d})
 
 print('Detailed marks :',marks) # Displaying the detailed marks
