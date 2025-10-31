@@ -26,7 +26,7 @@ def div(g,h):
     print('Division :',final)
     return(final)
 
-sum(2,3)
-sub(10,10)
-div(6,2)
+sum(2,3) # Function call 
+sub(10,10) # Function call 
+div(6,2) # Function call 
 mul(2,2)
