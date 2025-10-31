@@ -3,27 +3,27 @@
 # sub() - perform addition
 def sum(a,b):
     res = a + b
-    print(res)
+    print('Addition :',res)
     return(res)
 
 # sub() - perform subtraction
 def sub(c,d):
     result = c - d
-    print(result)
+    print('Subtraction :',result)
     return(result)
 
 
 # mul() - perform multiplication
 def mul(e,f):
     ans = e * f
-    print(ans)
+    print('Multiplication :',ans)
     return(ans)
 
 
 # div() - perform division
 def div(g,h):
     final = g / h
-    print(final)
+    print('Division :',final)
     return(final)
 
 sum(2,3)
