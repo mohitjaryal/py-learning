@@ -4,6 +4,6 @@ val = ['hye','bye','veryGood','veryBad','hye','bye','veryGood','veryBad','hye','
 # Finction
 def elements(list):
     for items in list:
-        print(items)
+        print(items) # Prints the elements of the list
 
 elements(val)
