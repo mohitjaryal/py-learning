@@ -15,13 +15,18 @@ def sub(c,d):
 
 # mul() - perform multiplication
 def mul(e,f):
-    ans = e - f
+    ans = e * f
     print(ans)
     return(ans)
 
 
 # div() - perform division
 def div(g,h):
-    final = g - h
+    final = g / h
     print(final)
     return(final)
+
+sum(2,3)
+sub(10,10)
+div(6,2)
+mul(2,2)
