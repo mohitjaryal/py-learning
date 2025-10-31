@@ -1,6 +1,6 @@
 # WAP to perform basic arithmetic operations using differnet functions
 
-# sub() function - perform addition
+# sub() - perform addition
 def sum(a,b):
     res = a + b
     print(res)
@@ -13,14 +13,14 @@ def sub(c,d):
     return(result)
 
 
-# sub() - perform subtraction
+# mul() - perform multiplication
 def mul(e,f):
     ans = e - f
     print(ans)
     return(ans)
 
 
-# sub() - perform subtraction
+# div() - perform division
 def div(g,h):
     final = g - h
     print(final)
