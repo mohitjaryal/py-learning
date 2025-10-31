@@ -1,6 +1,7 @@
  # Basic program to demonstrate the I/O operations in python
 
-f = open('/Users/mohit/Documents/py-learning/I/O_Operations/WriteData/demo.txt','r')
+f = open("/Users/mohit/Documents/py-learning/I/O_Operations/WriteData/demo.txt","w") 
 
-data = f.write("File data is changed ") # overwrites the entire file
-print(data)
+f.write("File changed !")
+
+f.close() # Closing the file
