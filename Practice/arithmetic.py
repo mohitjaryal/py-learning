@@ -29,4 +29,4 @@ def div(g,h):
 sum(2,3) # Function call 
 sub(10,10) # Function call 
 div(6,2) # Function call 
-mul(2,2)
+mul(2,2) # Function call 
