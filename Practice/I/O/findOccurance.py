@@ -1,26 +1,25 @@
 def checkWord():
     word = 'java'
-    with open('/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt', 'r') as f:
-        data = f.read()
-        if word.lower() in data.lower():
+    with open('/Users/mohit/Documents/py-learning/Practice/I/O/findOccurance.txt','r') as f:
+        data = f.read() # Reading the data
+        if(word in data):
             print('Found')
         else:
             print("Not found")
 
-
-def checkLine():
+# Function to check for the line
+def checkline():
     word = 'java'
-    lineNo = 1
-    with open('/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt', 'r') as f:
-        for line in f:
-            if word.lower() in line.lower():
-                print(f"Found on line {lineNo}")
-                return lineNo   # stop after first occurrence
-            lineNo += 1
-    print("Not found")
-    return -1  # if the word doesn't exist
+    data = True 
+    lineNo = 1 # line no.
+    with open('/Users/mohit/Documents/py-learning/Practice/I/O/findOccurance.txt','r') as f:
+        while data: # while data means - do work till data (variable name) has valid data 
+            data = f.readline()
+            if(word in data):
+                print(lineNo)
+                return  # stop after finding the first occurrence
+            lineNo += 1  # updating line no.
+    return -1 # if the word doesn't exist 
 
-
-# Function calls
-checkWord()
-checkLine()
+checkline() # function call
+checkWord() # function call
