@@ -8,7 +8,7 @@ with open("/Users/mohit/Documents/py-learning/Practice/I/O/evenCount.txt", 'w') 
 count = 0
 with open("/Users/mohit/Documents/py-learning/Practice/I/O/evenCount.txt", 'r') as f:
     data = f.read()
-    print(data) # printing the data
+    print('Data :',data) # printing the data
     # Basic Code
     # num = '' 
     # for i in range(len(data)):
@@ -24,4 +24,4 @@ with open("/Users/mohit/Documents/py-learning/Practice/I/O/evenCount.txt", 'r') 
         if(int(val) %2 == 0): # casting val into int 
             count += 1
 
-print(count) # Displaying count 
+print("Total even numbers :",count) # Displaying count 
