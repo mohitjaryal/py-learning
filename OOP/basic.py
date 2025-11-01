@@ -1,6 +1,7 @@
 # OOP in python
-class student:
+
+class student: # studnet class
     name = 'Mohit Jaryal'
 
-s1 = student() # call
+s1 = student() # Object 
 print(s1.name)
