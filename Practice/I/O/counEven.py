@@ -8,10 +8,14 @@ with open("/Users/mohit/Documents/py-learning/Practice/I/O/evenCount.txt", 'r') 
     data = f.read()
     print(data) # printing the data
     # Basic Code
-    num = '' 
-    for i in range(len(data)):
-        if(data[i] == ','):
-            print(int(num)) # casting num into int 
-            num = ''
-        else:
-            num += data[i]
+    # num = '' 
+    # for i in range(len(data)):
+    #     if(data[i] == ','):
+    #         print(int(num)) # casting num into int 
+    #         num = ''
+    #     else:
+    #         num += data[i]
+
+    # Using split() method 
+    num = data.split(',')
+    print(num)
