@@ -3,7 +3,5 @@ with open("/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt", 'r') a
     data = f.read()
     if 'Python' in data:
         print("Found Python :\n")
-    elif 'React' in data:
-        print("Found React :")
     else:
         print("Not found")
