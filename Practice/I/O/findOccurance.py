@@ -3,7 +3,7 @@ def checkWord():
     with open('/Users/mohit/Documents/py-learning/Practice/I/O/findOccurance.txt','r') as f:
         data = f.read() # Reading the data
         if(word in data):
-            print('Word Found\n')
+            print('Word Found')
         else:
             print("Not found")
 
