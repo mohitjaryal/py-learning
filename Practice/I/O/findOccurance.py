@@ -1,18 +1,26 @@
-# WAF to find the first occurance of word 'Java' in practice.txt
-
 def checkWord():
     word = 'java'
-    with open('/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt','r') as f:
-        data = f.read() # Reading the data
-        if(data.find(word) != -1 ):
+    with open('/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt', 'r') as f:
+        data = f.read()
+        if word.lower() in data.lower():
             print('Found')
         else:
             print("Not found")
 
-# Function to check for the line
-def checkline():
-     word = 'java'
-     data = True
-     with open('/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt','r') as f:
-         while data: # while data means - do work till data (variable name) has valid data 
-             data = f.readline()
+
+def checkLine():
+    word = 'java'
+    lineNo = 1
+    with open('/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt', 'r') as f:
+        for line in f:
+            if word.lower() in line.lower():
+                print(f"Found on line {lineNo}")
+                return lineNo   # stop after first occurrence
+            lineNo += 1
+    print("Not found")
+    return -1  # if the word doesn't exist
+
+
+# Function calls
+checkWord()
+checkLine()
