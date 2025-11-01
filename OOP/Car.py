@@ -16,18 +16,17 @@ class Car2:
     Year = 2025
     Units = 100
 
-
-
-car1 = Car() # created object - Car class
-print(car1.brand)
-print(car1.model)
-print(car1.Year)
-print(car1.color)
-print(car1.Units)
+# created object - Car class
+car1 = Car() 
+print('Brand :',car1.brand)
+print('Model :',car1.model)
+print('Year :',car1.Year)
+print('Color :',car1.color)
+print('Units :',car1.Units)
 
 car2 = Car2() # created object - Car2 class
-print(car2.brand)
-print(car2.model)
-print(car2.Year)
-print(car2.color)
-print(car2.Units)
+print('Brand :',car2.brand)
+print('Model :',car2.model)
+print('Year :',car2.Year)
+print('Color :',car2.color)
+print('Units :',car2.Units)
