@@ -1,5 +1,7 @@
 I have created a new file!
-Python!
+Python
 Java
 JavaScript
 React
+Java
+HTML
