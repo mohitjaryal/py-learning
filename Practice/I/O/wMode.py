@@ -1,8 +1,13 @@
 # WAP to create a file using py and write data in it
 
-with open("/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt",'w') as f: # w mode - creating new file
-    f.write("I have created a new file !") # Writing this message to the new file 
-    f.write("Python!")
-    f.write("Java")
-    f.write("JavaScript")
-    f.write("React")
+# Writing
+with open("/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt", 'w') as f:
+    f.write("I have created a new file!\n")
+    f.write("Python!\n")
+    f.write("Java\n")
+    f.write("JavaScript\n")
+    f.write("React\n")
+
+# Reading back to confirm
+with open("/Users/mohit/Documents/py-learning/Practice/I/O/practice.txt", 'r') as f:
+    print(f.read())
