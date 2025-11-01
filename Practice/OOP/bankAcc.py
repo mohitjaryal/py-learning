@@ -1,7 +1,6 @@
 # Create account class with balance & account no. Create method for debit,credit and print balance 
 
-# Create account class with balance & account no. 
-# Create method for debit, credit and print balance 
+# Account class with balance & account no. 
 
 class Account:
     def __init__(self, bal, acc):
