@@ -30,7 +30,7 @@ print(t1.model)
 t1.stop()    # Accessing parent stop() method
 
 b1 = BMW('BMW','M5')
-t1.start()   #  Accessing parent start() method
-print(t1.brand)
-print(t1.model)
-t1.stop()    # Accessing parent stop() method
+b1.start()   #  Accessing parent start() method
+print(b1.brand)
+print(b1.model)
+b1.stop()    # Accessing parent stop() method
