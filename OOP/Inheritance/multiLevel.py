@@ -16,7 +16,7 @@ class Toyota(Car):  # Inheriting from Car (Parent class)
         self.brand = brand
         self.model = model
 
-# Child class
+# Child class2 - 
 class BMW(Car):  # Inheriting from Car (Parent class)
     def __init__(self, brand, model):
         self.brand = brand
