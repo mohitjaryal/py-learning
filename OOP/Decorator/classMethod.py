@@ -1,4 +1,4 @@
-# @classmethod in py
+# @classmethod decorator in py
 
 class Parent:
     name = 'Abc'
