@@ -1,5 +1,6 @@
  # Basic demonstration of inheritance 
 
+# Parent class
 class Car:
     @staticmethod
     def start():
@@ -9,6 +10,7 @@ class Car:
     def stop():
         print('Car stopped ')
 
+# Child class
 class Toyota:
     def __init__(self,brand,model):
         self.brand = brand
