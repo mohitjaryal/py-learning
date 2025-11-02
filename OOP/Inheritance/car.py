@@ -18,7 +18,7 @@ class Toyota:
 
 
 t1 = Toyota('Toyota','Fortuner')
-print(t1.start())
+t1.start()
 print(t1.brand)
 print(t1.model)
-print(t1.stop())
+t1.stop()
