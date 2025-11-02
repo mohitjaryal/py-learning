@@ -8,7 +8,8 @@ class Student:
         self.chem = chem
 
     # Average
-    @property
+    @property 
+    # Returns latest value
     def avg(self):
         return str((self.math + self.phy + self.chem ) / 3 )
     
