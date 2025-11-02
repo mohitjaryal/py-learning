@@ -10,6 +10,6 @@ class Child(Parent1,Parent2):
     hello3 = 'Hello form Child'
 
 c1 = Child() # Object of Child class
-print(c1.hello1)
-print(c1.hello2) # Inherited from parent1
-print(c1.hello3) # Inherited from parent2
+print(c1.hello1)# Inherited from parent1
+print(c1.hello2) 
+print(c1.hello3) 
