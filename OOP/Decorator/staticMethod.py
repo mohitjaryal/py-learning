@@ -1,4 +1,4 @@
-# Static method in py
+# @ststicmethod decorator in py
 
 # Creating class
 class Student:
