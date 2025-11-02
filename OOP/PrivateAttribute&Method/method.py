@@ -6,4 +6,4 @@ class Person:
         print('Hello') 
 
 p1 = Person()
-print(p1.__hello()) # This will not work because the __hello method is private and can only be call inside the Person class 
+# print(p1.__hello()) # This will not work because the __hello method is private and can only be call inside the Person class 
