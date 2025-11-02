@@ -16,3 +16,5 @@ class Toyota:
 
 
 t1 = Toyota('Toyota','Fortuner')
+print(t1.brand)
+print(t1.model)
