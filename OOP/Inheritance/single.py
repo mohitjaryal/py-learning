@@ -2,7 +2,7 @@
 
 # Parent class
 class Car:
-    @staticmethod
+    @staticmethod # static method decorator dosen't requre any self parameter
     def start():
         print('Car started')
 
