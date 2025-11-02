@@ -1,4 +1,4 @@
-# Basic demonstration of inheritance 
+# Basic demonstration of single inheritance 
 
 # Parent class
 class Car:
