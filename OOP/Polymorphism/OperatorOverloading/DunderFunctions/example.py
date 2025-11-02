@@ -8,7 +8,8 @@ class Complex:
     def showNum(self):
         print(self.real, 'i + ',self.img,'j')
 
-    def add(self,num2):
+    # Dunder funciton
+    def __add__(self,num2):
         newReal = self.real + num2.real
         newImg = self.img + num2.img
         return Complex(newReal,newImg)
@@ -21,5 +22,5 @@ num1.showNum()
 num2 = Complex(3,4)
 num2.showNum()
 
-num3 = num1.add(num2)
+num3 = num1 + num2 # Now this will work because we have created a dunder function __add__
 num3.showNum()
