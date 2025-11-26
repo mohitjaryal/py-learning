@@ -26,7 +26,6 @@ Here are some of the core areas I’ve worked on while learning Python:
 - 📊 Data Structures (Lists, Tuples, Sets, Dictionaries)  
 - 🧮 File Handling & Exceptions  
 - ⏳ Iterators & Generators  
-- 🧩 Lambda, Map, Filter, and Comprehensions  
 - 🧬 Decorators & Context Managers  
 - 🧠 Algorithms & Problem Solving with Python  
 - 🌐 Working with APIs & Libraries  
