@@ -27,20 +27,6 @@ Here are some of the core areas I’ve worked on while learning Python:
 - 🧮 File Handling & Exceptions  
 - ⏳ Iterators & Generators  
 - 🧬 Decorators & Context Managers  
-- 🧠 Algorithms & Problem Solving with Python  
-- 🌐 Working with APIs & Libraries  
-- 🧾 Regular Expressions  
-- 🧮 NumPy, Pandas (Intro to Data Science Concepts)  
-
----
-
-## 🎯 Goal
-
-To develop a deep understanding of **Python programming** and use it as a foundation for:
-- 🧠 Competitive Programming & Problem Solving  
-- 🌍 Web Development  
-- 📊 Data Science and Machine Learning  
-- ⚙️ Automation and Scripting  
 
 ---
 
@@ -63,9 +49,7 @@ If you find something that can be improved — whether it’s code, style, or ex
 
 ## 🧭 Connect With Me
 
-📫 **GitHub:** [YourUsername](https://github.com/YourUsername)  
-💼 **LinkedIn:** [YourLinkedInProfile](https://linkedin.com/in/YourLinkedInProfile)  
-🌐 **Portfolio:** [your-portfolio.com](https://your-portfolio.com)  
+🌐 **My Website:** [Mohit Jaryal](https://mohitjaryal.online)  
 
 ---
 
