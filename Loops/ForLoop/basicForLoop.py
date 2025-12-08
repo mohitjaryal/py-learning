@@ -5,10 +5,5 @@ num = [1,2,3,4,5,6,7]
 for el in num:
     print(el)
 
-# tup = (1,2,3,4,5,6,7)
-# for el in tup:  Printing tuple
-#     print(el)
-
-# str = 'Hello World'
-# for char in str:  Printing string
+# tup =ring
 #     print(char)
